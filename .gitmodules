@@ -7,3 +7,9 @@
 [submodule "hugo-PaperMod"]
 	path = hugo-PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "just-me"]
+	path = just-me
+	url = https://github.com/jota-ele-ene/just-me.git
+[submodule "gohugo-theme-ananke"]
+	path = gohugo-theme-ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
