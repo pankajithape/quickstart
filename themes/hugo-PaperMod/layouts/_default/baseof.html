@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default " auto " }}">
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
 <head>
-    {{- partial "head.html" . }} {{ template "_internal/google_analytics.html" . }}
+    {{- partial "head.html" . }}
 </head>
 
 <body class="
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
-{{- print " list " -}}
+{{- print "list" -}}
 {{- end -}}
 {{- if eq site.Params.defaultTheme `dark` -}}
-{{- print " dark " }}
+{{- print " dark" }}
 {{- end -}}
 " id="top">
     {{- partialCached "header.html" . .Page -}}
