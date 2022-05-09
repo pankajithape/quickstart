@@ -1,5 +1,5 @@
 baseURL = ""
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme = "hugo-theme-terminal"
+theme = "ananke"
 googleAnalytics = "UA-228017620-2"
